@@ -4,4 +4,4 @@ MAINTAINER Hellyna NG <hellyna@hellyna.com>
 ADD build /root/build
 RUN /root/build
 
-ENTRYPOINT /usr/bin/tar
+ENTRYPOINT ["/usr/bin/tar"]
