@@ -1,0 +1,7 @@
+#!/bin/ash
+# vim:set ft=sh:
+
+set -e
+apk --update add tar
+rm -rvf /var/cache/apk*
+set +e
